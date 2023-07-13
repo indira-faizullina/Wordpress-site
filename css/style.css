@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@300&family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container nav {
+  margin-bottom: 200px;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu__item a {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #989696;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.menu__item:last-child a {
+  margin-right: 0;
+}
+.active a {
+  color: #010101;
+}
+.logo {
+  margin: 0 15px;
+}
+.header__contant {
+  text-align: center;
+}
+.header__title {
+  font-size: 44px;
+  line-height: 41px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #1d1e1f;
+  margin: 0 auto 15px;
+}
+.header__text {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.03em;
+  color: #898888;
+  margin: 0 auto 50px;
+}
+.header_button {
+  padding: 20px 50px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: inherit;
+  margin: 0 auto 200px;
+  cursor: pointer;
+}
+.header_button:hover {
+  background-color: #cdcdcd;
+}
+.header_button__link {
+  font-size: 15px;
+  line-height: 17px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* about page */
+
+.about {
+  height: 1130px;
+  padding-top: 128px;
+  padding-bottom: 271px;
+  background: url(../img/buildings_white.png) center 101% repeat-x,
+    url(../img/buildings_black.png) center 101% repeat-x, #1d1d1d;
+}
+
+.about__inner {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: max-content max-content;
+  gap: 180px;
+}
+
+.about__item {
+  background-color: #181818;
+  width: 420px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 15px 90px;
+}
+.about__year {
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #fefefe;
+  margin: 0 auto 10px;
+}
+.about__text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #b7b7b7;
+}
+
+/* team page  */
+
+.team {
+  height: 750px;
+}
+.team__head {
+  text-align: center;
+  padding-top: 140px;
+  margin: 0 auto 130px;
+}
+.block__title {
+  font-size: 34px;
+  font-weight: 400;
+  color: #1d1e1f;
+  margin: 0 auto 13px;
+}
+.block__text {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  color: #898888;
+  margin: 0;
+}
+.team__inner {
+  display: flex;
+  justify-content: space-evenly;
+}
+.team__item {
+  text-align: center;
+}
+.team__item-img {
+  margin: 0 auto 30px;
+}
+.team__item-title {
+  font-size: 24px;
+  color: #464646;
+  margin: 0 auto 5px;
+}
+.team__item-text {
+  font-size: 13px;
+  color: #b3b3b3;
+  margin: 0 auto 20px;
+}
+.team__icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.team__icon-box a {
+  color: #e4e4e4;
+  font-size: 24px;
+  transition: 0.2s;
+}
+
+.team__icon-box a:hover {
+  color: #939393;
+}
+
+/* services */
+
+.services {
+  background-color: #181818;
+  height: 835px;
+}
+.services__head {
+  text-align: center;
+  padding-top: 180px;
+  margin: 0 auto 130px;
+}
+.block__title {
+  color: #ffffff;
+}
+.block__text {
+  color: #777777;
+}
+.services__inner {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 150px;
+}
+.services__item {
+  text-align: center;
+}
+.services__item-icon {
+  width: 170px;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin: 0 auto 43px;
+}
+.services__item i {
+  font-size: 70px;
+  color: #ffffff;
+  padding: 30px;
+}
+.services__item-title {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0 auto 5px;
+  color: #ffffff;
+}
+.services__item-text {
+  font-size: 18px;
+  color: #383838;
+  margin: 0 auto 20px;
+  padding: 20px;
+}
