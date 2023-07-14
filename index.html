@@ -10,7 +10,7 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav>
+        <nav class="menu__desktop">
           <ul class="menu">
             <li class="menu__item active"><a href="#">Home</a></li>
             <li class="menu__item"><a href="#">About Us</a></li>
@@ -22,6 +22,20 @@
             <li class="menu__item"><a href="#">Blog</a></li>
             <li class="menu__item"><a href="#">Contact Us</a></li>
           </ul>
+        </nav>
+        <nav class="menu__mobile">
+          <a href="#"><img src="img/logo.jpg" alt="logo" class="logo" /></a>
+          <div class="menu__burger">
+            <ul class="menu">
+              <li class="menu__item active"><a href="#">Home</a></li>
+              <li class="menu__item"><a href="#">About Us</a></li>
+              <li class="menu__item"><a href="#">Team</a></li>
+
+              <li class="menu__item"><a href="#">Services</a></li>
+              <li class="menu__item"><a href="#">Blog</a></li>
+              <li class="menu__item"><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
         </nav>
         <div class="header__contant">
           <h1 class="header__title">We build it with passion</h1>
@@ -157,6 +171,55 @@
               velit
             </p>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contacts -->
+
+    <div class="contact">
+      <div class="container">
+        <div class="contact__head">
+          <h2 class="block__title">Contact Us</h2>
+          <p class="block__text">We know what we need to do</p>
+        </div>
+        <div class="contact__inner">
+          <div class="contact__icon-box">
+            <div class="contact__item">
+              <i class="icon-phone"></i>
+              <div class="contact__item_text">
+                <a href="tel:555222333" target="_blank">555-222-333</a>
+              </div>
+            </div>
+            <div class="contact__item">
+              <i class="icon-location"></i>
+              <div class="contact__item_text">
+                <a
+                  href="https://www.google.com/maps/place/%D0%A5%D0%B0%D0%BB%D0%B0%D0%BA%D1%82%D1%8B%D1%80%D1%81%D0%BA%D0%B8%D0%B9+%D0%9F%D0%BB%D1%8F%D0%B6/@53.0127595,158.7054494,12z/data=!4m6!3m5!1s0x58e184c6dfeee2cb:0xfd5779a6889dcbe8!8m2!3d52.9993234!4d158.8614664!16s%2Fg%2F11bv5vxzds?hl=RU&entry=ttu"
+                  target="_blank"
+                  >Here is some address</a
+                >
+              </div>
+            </div>
+            <div class="contact__item">
+              <i class="icon-mail-alt"></i>
+              <div class="contact__item_text">
+                <a href="mailto:mymail@mail.com" target="_blank"
+                  >mymail@mail.com</a
+                >
+              </div>
+            </div>
+          </div>
+          <form action="#">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email" />
+            <input type="tel" placeholder="Phone number" />
+            <textarea placeholder="Write your Message here..."></textarea>
+            <button type="submit">Submit</button>
+          </form>
+          <footer class="footer">
+            Copyright &copy; Kenan Hamidic. All rights reserved.
+          </footer>
         </div>
       </div>
     </div>
