@@ -43,6 +43,11 @@ body {
   margin-right: 40px;
 }
 
+.menu__item a:hover {
+  text-decoration: underline;
+  color: #3b3b3b;
+}
+
 .menu__item:last-child a {
   margin-right: 0;
 }
